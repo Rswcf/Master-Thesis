@@ -11,15 +11,13 @@
 
 ## Project Description
 
+![image info](https://github.com/Rswcf/application-of-machine-learning-in-quality-monitoring-during-linear-winding-process/blob/master/2_Others/ProjectDescription.png)
+
 The project taps the potential for machine learning in quality monitoring during linear winding process of electric motor production. The goal is to investigate: **to what extent the winding faults during the production can be correctly identified and classified with CNNs** and **whether the faults can be predicted with machine learning models**. The work can be divided in two steps. In the first step a training dataset with about 38400 images are labeled according to winding fault types. The second step includes the following: 
 * ***Deep Learning Pipeline:*** Development and evaluation of a winding fault detection pipeline using different types of CNN through transfer learning
 * ***Machine Learning Pipeline based on classical image processing algorithms:*** Detection of caster angles from 2D images using OpenCV and investigate whether the faults can be correctly predicted based on the values using different machine learning algorithms.
 
-[logo]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Project Description"
-
 ## Deep Learning Pipeline
-
-incert picture to describe the pipeline
 
 ### Dataset
 #### Image Data
@@ -56,6 +54,19 @@ The third and fourth aproaches are to cast the models to **multi-label** and **m
 | 1_DW | double winding |
 | 2_Luecke | gap |
 | 3_Kreuzung | crossover |
+
+**the images are shown below:**
+
+* a. no fault
+* b. double winding
+* c. gap
+* d. double winding + gap
+* e. double winding + crossover
+* f. gap + crossover
+* g. double winding + gap + crossover
+
+![image info](https://github.com/Rswcf/application-of-machine-learning-in-quality-monitoring-during-linear-winding-process/blob/master/2_Others/WindingFaults.png)
+
 
 ### Models
 For fast modeling I utilized the first layers of the three pre-trained models respectively through **transfer learning** (e.g. **InceptionV3**, **VGG16** and **ResNet50**) from Keras to reuse the learned features. Totally I built **3 pre-trained models * 4 forms = 12 DL models** to test the potentials of different transformation possibilities. Some important hyperparameters of the models are shown below:
