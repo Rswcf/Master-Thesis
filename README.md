@@ -15,6 +15,8 @@ The project taps the potential for machine learning in quality monitoring during
 * ***Deep Learning Pipeline:*** Development and evaluation of a winding fault detection pipeline using different types of CNN through transfer learning
 * ***Machine Learning Pipeline based on classical image processing algorithms:*** Detection of caster angles from 2D images using OpenCV and investigate whether the faults can be correctly predicted based on the values using different machine learning algorithms.
 
+[logo]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Project Description"
+
 ## Deep Learning Pipeline
 
 incert picture to describe the pipeline
