@@ -1,23 +1,35 @@
 # A Winding Fault Detection System based on Computer Vision and Machine Learning
 
 ---
-** Have worked in**
+**Tech Stack I have worked with**
 
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
-[![Made withJupyter](https://img.shields.io/badge/Made%20with-Jupyter-orange?style=for-the-badge&logo=Jupyter)](https://jupyter.org/try)
+![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
+![Markdown](https://img.shields.io/badge/markdown-%23000000.svg?style=for-the-badge&logo=markdown&logoColor=white)
 
----
+![Keras](https://img.shields.io/badge/Keras-%23D00000.svg?style=for-the-badge&logo=Keras&logoColor=white)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white)
+![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white)
+![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)
+![OpenCV](https://img.shields.io/badge/opencv-%23white.svg?style=for-the-badge&logo=opencv&logoColor=white)
+
+![PyCharm](https://img.shields.io/badge/pycharm-143?style=for-the-badge&logo=pycharm&logoColor=black&color=black&labelColor=green)
+![Jupyter Notebook](https://img.shields.io/badge/jupyter-%23FA0F00.svg?style=for-the-badge&logo=jupyter&logoColor=white)
 
 ## Table of Contents
 
-* [Project Description](#Project-Description)
-* [Deep Learning Pipeline](#Deep-Learning-Pipeline)
-    * [Dataset](#Dataset)
-    * [Models](#Models)
-    * [Performance](#Performance)
-* [Machine Learning Pipeline based on classical image processing algorithms](#Machine-Learning-Pipeline-based-on-classical-image-processing-algorithms)
-    * [Dataset](#Dataset)
-    * [Models](#Models)
+- [Project Description](#project-description)
+- [Deep Learning Pipeline](#deep-learning-pipeline)
+  * [Dataset](#dataset)
+    + [Image Data](#image-data)
+    + [Label Data](#label-data)
+  * [Models](#models)
+  * [Performance](#performance)
+- [Machine Learning Pipeline based on classical image processing algorithms](#machine-learning-pipeline-based-on-classical-image-processing-algorithms)
+  * [Dataset](#dataset-1)
+  * [Models](#models-1)
+  * [Performance](#performance-1)
 
 ## Project Description
 
