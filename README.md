@@ -1,4 +1,12 @@
-# A Winding Fault Detection System based on Deep Learning || Machine Vision
+# A Winding Fault Detection System based on Computer Vision and Machine Learning
+
+---
+** Have worked in**
+
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+[![Made withJupyter](https://img.shields.io/badge/Made%20with-Jupyter-orange?style=for-the-badge&logo=Jupyter)](https://jupyter.org/try)
+
+---
 
 ## Table of Contents
 
